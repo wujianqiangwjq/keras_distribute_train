@@ -2,7 +2,6 @@
   环境:
 	singularity 镜像中,master/worker 每台机器多GPU
  报错:
-	INFO:tensorflow:Calling model_fn.
-	INFO:tensorflow:Error reported to Coordinator: You must specify an aggregation method to update a MirroredVariable in Tower Context.
-
-	ValueError: You must specify an aggregation method to update a MirroredVariable in Tower Context
+     INFO:tensorflow:Calling model_fn.
+     INFO:tensorflow:Error reported to Coordinator: You must specify an aggregation method to update a MirroredVariable in Tower Context.
+     ValueError: You must specify an aggregation method to update a MirroredVariable in Tower Context
