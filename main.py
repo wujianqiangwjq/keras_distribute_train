@@ -39,8 +39,8 @@ if __name__ == '__main__':
     FLAGS = tf.flags.FLAGS
     tf.flags.DEFINE_string("jobname","","ps/worker")
     tf.flags.DEFINE_integer("task_index",0,"index")
-    cluster = {'master': ['10.240.208.106:2222'],
-                'worker': ['10.240.208.90:2222']
+    cluster = {'master': ['192.168.56.106:2222'],
+                'worker': ['192.168.56.90:2222']
 	}
     jtype = FLAGS.jobname
     jindex = FLAGS.task_index
